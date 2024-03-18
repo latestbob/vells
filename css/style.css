@@ -372,6 +372,13 @@ mark,
   padding-left: 0;
   list-style: none; }
 
+  iframe{
+  
+
+    width: 1032px;
+    height:492px;
+  }
+
 .list-inline {
   padding-left: 0;
   list-style: none; }
@@ -2591,6 +2598,14 @@ input[type="button"].btn-block {
     right: 0;
     left: auto; } }
 
+
+@media (max-width: 768px) {
+  .hidemobile{
+    display: none;
+  }
+
+}
+
 @media (min-width: 992px) {
   .dropdown-menu-lg-left {
     right: auto;
@@ -3604,7 +3619,9 @@ input[type="button"].btn-block {
   .navbar-expand-lg > .container,
   .navbar-expand-lg > .container-fluid {
     padding-right: 0;
-    padding-left: 0; } }
+    padding-left: 0; }
+   
+  }
 
 @media (min-width: 992px) {
   .navbar-expand-lg {
@@ -8178,7 +8195,9 @@ h1, h2, h3, h4, h5,
   display: block; }
   @media (max-width: 767.98px) {
     .topper {
-      margin-bottom: 10px; } }
+      margin-bottom: 10px;
+    display: none !important;
+    } }
   .topper .icon {
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -8258,8 +8277,9 @@ h1, h2, h3, h4, h5,
   z-index: 3;
   padding: 0; }
   @media (max-width: 991.98px) {
+    
     .ftco-navbar-light {
-      background: #3e64ff !important;
+      background: #292f36 !important;
       position: relative;
       top: 0;
       padding: 10px 15px; } }
@@ -8281,6 +8301,7 @@ h1, h2, h3, h4, h5,
     padding-right: 20px;
     font-weight: 400;
     color: #fff;
+    text-align: center;
     opacity: 1 !important; }
     .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
       color: #fff; }
@@ -8339,6 +8360,7 @@ h1, h2, h3, h4, h5,
     @media (max-width: 991.98px) {
       .ftco-navbar-light .navbar-nav > .nav-item.active > a {
         color: #fff;
+        
         background: transparent !important; } }
   .ftco-navbar-light .navbar-toggler {
     border: none;
@@ -9131,6 +9153,7 @@ textarea.form-control {
       color: #fff;
       margin-bottom: 40px;
       font-size: 20px;
+      text-align: center;
       font-weight: 600; }
     .ftco-footer .ftco-footer-widget .logo {
       color: #3e64ff; }
